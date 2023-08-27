@@ -1,0 +1,195 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "10890136-3368-4bb3-8e17-028d15dd0aec": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "variant_labels": true,
+            "picker_type": "button",
+            "product_dynamic_variants_enable": true,
+            "color_swatches": false
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "surface_pickup_enable": true
+          }
+        },
+        "inventory_status": {
+          "type": "inventory_status",
+          "settings": {
+            "inventory_threshold": 10,
+            "inventory_transfers_enable": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "is_tab": false
+          }
+        },
+        "tab": {
+          "type": "tab",
+          "settings": {
+            "title": "Shipping",
+            "content": "",
+            "page": "shipping-policy"
+          }
+        },
+        "06da1a30-bb70-41d5-92f3-e022a12fc7e8": {
+          "type": "tab",
+          "settings": {
+            "title": "Return & Refund",
+            "content": "<ul><li>We have a 30-day return policy, which means you have 30 days after receiving your item to request a return.<\/li><li>30-day money-back guarantee for any reason.<\/li><\/ul><p>Please check our refund & return policy, and contact us at support@glucoracy.com<\/p>",
+            "page": ""
+          }
+        },
+        "105bf436-ee31-47db-86af-0c4b1b2a34b2": {
+          "type": "separator",
+          "disabled": true,
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "price",
+        "10890136-3368-4bb3-8e17-028d15dd0aec",
+        "variant_picker",
+        "buy_buttons",
+        "inventory_status",
+        "description",
+        "tab",
+        "06da1a30-bb70-41d5-92f3-e022a12fc7e8",
+        "105bf436-ee31-47db-86af-0c4b1b2a34b2"
+      ],
+      "settings": {
+        "sku_enable": false,
+        "image_position": "left",
+        "image_size": "medium",
+        "product_zoom_enable": true,
+        "thumbnail_position": "below",
+        "thumbnail_height": "flexible",
+        "thumbnail_arrows": true,
+        "mobile_layout": "full",
+        "enable_video_looping": true,
+        "product_video_style": "muted"
+      }
+    },
+    "sub": {
+      "type": "product-full-width",
+      "settings": {
+        "max_width": true
+      }
+    },
+    "text-and-image": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2_34fac59b-1ec8-4fe7-8858-40047ceac8e4.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Control blood sugar",
+        "text": "<p>Test blood glucose indicators anytime and anywhere.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "right",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "text-and-image2": {
+      "type": "text-and-image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1_6090407d-e98c-45e5-a87a-98e0f4caf8ab.jpg",
+        "image_mask": "none",
+        "image2_mask": "none",
+        "subtitle": "",
+        "title": "Healthy Life",
+        "text": "<p>Reasonable control of diet and rest to live a healthy and happy life<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "button_style": "primary",
+        "align_text": "left",
+        "image_width": "50",
+        "layout": "left",
+        "divider": false,
+        "top_padding": true,
+        "bottom_padding": true,
+        "lazyload_images": true
+      }
+    },
+    "judgeme_section_review_widget_7269": {
+      "type": "apps",
+      "blocks": {
+        "judgeme_review_widget_5b618a71": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_5b618a71"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "product_recommendations_heading": "You may also like",
+        "related_count": 3,
+        "products_per_row": 3
+      }
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "disabled": true,
+      "settings": {
+        "recent_count": 5
+      }
+    },
+    "collection-return": {
+      "type": "collection-return",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "pf-2edf01d0": {
+      "type": "pf-2edf01d0",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "sub",
+    "text-and-image",
+    "text-and-image2",
+    "judgeme_section_review_widget_7269",
+    "product-recommendations",
+    "recently-viewed",
+    "collection-return",
+    "pf-2edf01d0"
+  ]
+}
